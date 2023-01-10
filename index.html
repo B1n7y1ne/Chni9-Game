@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chni9 Game</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="game-info">
+      <div class="game-name">Chni9</div>
+      <div class="category">
+        Word From: <span></span>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="hangman-draw">
+        <div class="the-draw">
+          <div class="the-stand"></div>
+          <div class="the-hang"></div>
+          <div class="the-rope"></div>
+          <div class="the-man">
+            <div class="head"></div>
+            <div class="body"></div>
+            <div class="hands"></div>
+            <div class="legs"></div>
+          </div>
+        </div>
+      </div>
+      <div class="letters-guess"></div>
+    </div>
+    <hr>
+    <div class="letters"></div>
+  </div>
+<audio id="success" src="sounds/success.mp3" preload="auto"></audio>
+  <audio id="fail" src="sounds/wrong-buzzer-6268.mp3" preload="auto"></audio>
+  <script src="index.js"></script>
+</body>
+
+</html>
